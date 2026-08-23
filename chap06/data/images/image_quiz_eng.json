@@ -1,0 +1,27 @@
+[
+    {
+        "no": 1,
+        "eng": "Which of the following descriptions of the image is incorrect?  \n- (1) The first man from the left is wearing glasses.  \n- (2) The second person from the left is wearing sunglasses.  \n- (3) The third man from the left is wearing a scarf around his neck.  \n- (4) The man on the right is wearing a long-sleeved shirt.",
+        "img": "문제 1"
+    },
+    {
+        "no": 2,
+        "eng": "Which of the following descriptions of the image is incorrect?  \n- (1) The man on the left is wearing glasses.  \n- (2) The woman in the center is wearing an orange sweater.  \n- (3) The woman on the right is wearing a black jacket over a red plaid shirt.  \n- (4) All three people are standing.",
+        "img": "문제 2"
+    },
+    {
+        "no": 3,
+        "eng": "Which of the following descriptions of the image is incorrect?  \n- (1) The first woman from the left is wearing a red top.  \n- (2) The second man from the left is wearing a blue shirt.  \n- (3) The third woman from the left is wearing a white top.  \n- (4) The first man from the right is wearing sunglasses.",
+        "img": "문제 3"
+    },
+    {
+        "no": 4,
+        "eng": "Which of the following descriptions of the image is incorrect?  \n- (1) The first man from the left is wearing a brown jacket.  \n- (2) The second man from the left is wearing a blue denim jacket.  \n- (3) The fourth woman from the left is wearing glasses.  \n- (4) The fifth man from the left is wearing a white jacket.",
+        "img": "문제 4"
+    },
+    {
+        "no": 5,
+        "eng": "Which of the following descriptions of the image is incorrect?  \n- (1) The woman is wearing a wide-brimmed hat.  \n- (2) The woman is wearing a light-colored dress with buttons down the front.  \n- (3) The woman is standing on a grassy hill.  \n- (4) The woman is carrying a red suitcase.",
+        "img": "문제 5"
+    }
+]

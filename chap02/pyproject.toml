@@ -1,0 +1,14 @@
+[project]
+name = "chap02"
+version = "0.1.0"
+description = "Doit_book_chap02"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "openai>=2.53.0",
+]
+
+[project.scripts]
+chap02 = "chap02:main"
+

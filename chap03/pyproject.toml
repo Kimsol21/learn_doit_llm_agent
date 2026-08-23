@@ -1,0 +1,14 @@
+[project]
+name = "chap03"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "openai>=2.53.0",
+    "streamlit>=1.61.1",
+]
+
+[project.scripts]
+chap03 = "chap03:main"

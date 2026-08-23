@@ -1,0 +1,12 @@
+[project]
+name = "chap04"
+version = "0.1.0"
+description = "Preprocessing PDF File"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "openai>=3.1.0",
+    "pymupdf>=1.28.2",
+    "rich>=15.0.0",
+]

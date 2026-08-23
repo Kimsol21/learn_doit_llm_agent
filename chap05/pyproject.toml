@@ -1,0 +1,22 @@
+[project]
+name = "chap05"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.14.0",
+    "datasets[audio]>=5.0.1",
+    "dotenv>=0.9.9",
+    "huggingface-hub==0.27.1",
+    "ipywidgets>=8.1.5",
+    "numpy==1.26",
+    "openai>=3.3.1",
+    "pyannote-audio>=3.4.0",
+    "python-docx>=1.2.0",
+    "rich>=15.0.0",
+    "speechbrain==1.0.2",
+    "torch==2.8.0",
+    "torchaudio==2.8.0",
+    "transformers==4.45.2",
+]
