@@ -1,0 +1,17 @@
+[project]
+name = "chap08"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "langchain>=1.4.0",
+    "langchain-openai>=1.6.0",
+    "pytz>=2026.3.post1",
+    "rich>=15.0.0",
+    "streamlit>=1.63.0",
+    "tabulate>=0.10.0",
+    "yfinance>=1.7.0",
+]
+
