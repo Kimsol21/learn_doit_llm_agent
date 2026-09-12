@@ -1,0 +1,18 @@
+[project]
+name = "chap09"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fonttools>=4.65.0",
+    "langchain>=1.4.0",
+    "langchain-chroma>=1.1.0",
+    "langchain-classic>=1.0.8",
+    "langchain-community>=0.4.2",
+    "langchain-openai>=1.6.2",
+    "pymupdf>=1.28.2",
+    "pypdf>=6.18.1",
+    "rich>=15.0.0",
+    "streamlit>=1.63.0",
+]

@@ -16,3 +16,9 @@
 # Python 실행 중 생성되는 로컬 파일
 __pycache__/
 *.py[cod]
+
+# Chroma 벡터 저장소 제외
+/chap09/chroma_store/
+
+# chap09/data 아래의 PDF 파일 제외
+/chap09/data/**/*.pdf
