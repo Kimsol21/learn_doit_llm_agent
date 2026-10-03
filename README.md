@@ -17,6 +17,7 @@ learn_doit_llm_agent/
 ├── chap08/                 # LangChain / LCEL / @tool 사용
 ├── chap09/                 # RAG 기반 문서 질의응답
 ├── chap10/                 # 웹 검색 / YouTube 요약 / 검색형 앱
+├── chap11/                 # Ollama 로컬 LLM / DeepSeek-R1
 ├── etc/                    # 추가 자료 및 실험 기록
 ├── README.md               # 프로젝트 소개
 ├── .gitignore
@@ -91,6 +92,12 @@ learn_doit_llm_agent/
 - 검색 결과를 LLM에 전달해 답변 생성
 - YouTube 영상 링크를 요약하는 실습
 - `streamlit` 기반 검색 및 요약 앱 구현
+
+### 11장. 로컬 LLM과 DeepSeek-R1
+
+- Ollama에서 `DeepSeek-R1:14B` 모델 실행
+- LangChain의 `ChatOllama`로 로컬 모델과 대화
+- Streamlit 앱에 Chroma 벡터 저장소의 검색 결과를 활용한 RAG 챗봇 구현
 
 
 
