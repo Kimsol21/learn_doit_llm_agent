@@ -18,6 +18,7 @@ learn_doit_llm_agent/
 ├── chap09/                 # RAG 기반 문서 질의응답
 ├── chap10/                 # 웹 검색 / YouTube 요약 / 검색형 앱
 ├── chap11/                 # Ollama 로컬 LLM / DeepSeek-R1
+├── chap12/                 # LangGraph 상태 관리 / 메모리 / 도구 호출
 ├── etc/                    # 추가 자료 및 실험 기록
 ├── README.md               # 프로젝트 소개
 ├── .gitignore
@@ -99,6 +100,13 @@ learn_doit_llm_agent/
 - LangChain의 `ChatOllama`로 로컬 모델과 대화
 - Streamlit 앱에 Chroma 벡터 저장소의 검색 결과를 활용한 RAG 챗봇 구현
 
+### 12장. LangGraph와 상태 관리
+
+- LangGraph 기본 그래프 구조와 노드/엣지 이해
+- 상태 기반 대화 흐름 구성
+- 대화 메모리와 세션 상태 관리
+- 외부 도구를 그래프에 연결하는 실습
+- 툴 호출을 통한 에이전트형 워크플로우 구현
 
 
 ## 📖 참고 자료
