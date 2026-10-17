@@ -19,6 +19,7 @@ learn_doit_llm_agent/
 ├── chap10/                 # 웹 검색 / YouTube 요약 / 검색형 앱
 ├── chap11/                 # Ollama 로컬 LLM / DeepSeek-R1
 ├── chap12/                 # LangGraph 상태 관리 / 메모리 / 도구 호출
+├── chap13/                 # LangGraph 기반 조건부 라우팅 RAG
 ├── etc/                    # 추가 자료 및 실험 기록
 ├── README.md               # 프로젝트 소개
 ├── .gitignore
@@ -107,6 +108,15 @@ learn_doit_llm_agent/
 - 대화 메모리와 세션 상태 관리
 - 외부 도구를 그래프에 연결하는 실습
 - 툴 호출을 통한 에이전트형 워크플로우 구현
+
+### 13장. LangGraph 기반 RAG
+
+- 질문을 벡터 저장소 검색 또는 일상 대화로 분기
+- 검색 문서의 질문 관련성을 평가하고 관련 문서만 필터링
+- 질문과 검색 문맥을 이용한 답변 생성
+- 라우터, 검색, 문서 평가, 답변 생성 노드를 LangGraph로 연결
+- 조건부 엣지를 사용한 RAG 워크플로우 구성
+
 
 
 ## 📖 참고 자료
