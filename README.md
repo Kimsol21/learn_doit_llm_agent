@@ -20,6 +20,7 @@ learn_doit_llm_agent/
 ├── chap11/                 # Ollama 로컬 LLM / DeepSeek-R1
 ├── chap12/                 # LangGraph 상태 관리 / 메모리 / 도구 호출
 ├── chap13/                 # LangGraph 기반 조건부 라우팅 RAG
+├── chap14/                 # LangGraph 멀티에이전트 / 책 목차 작성
 ├── etc/                    # 추가 자료 및 실험 기록
 ├── README.md               # 프로젝트 소개
 ├── .gitignore
@@ -117,6 +118,13 @@ learn_doit_llm_agent/
 - 라우터, 검색, 문서 평가, 답변 생성 노드를 LangGraph로 연결
 - 조건부 엣지를 사용한 RAG 워크플로우 구성
 
+### 14장. LangGraph 멀티에이전트
+
+- Supervisor 에이전트가 작업을 분배하고 라우팅을 제어
+- content strategist, communicator, vector search, web search 역할 분리
+- 벡터 DB와 웹 검색을 함께 활용하는 자료 수집 흐름
+- Pydantic 기반 구조화된 출력으로 안정적인 에이전트 제어
+- 새로운 정보를 수집하고 목차를 작성하는 멀티에이전트 워크플로 구현
 
 
 ## 📖 참고 자료
